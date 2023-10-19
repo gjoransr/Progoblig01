@@ -1,0 +1,11 @@
+bakgrunn = rectangle(440, 320,"solid", "crimson")
+stripehh = rectangle(440, 80, "solid", "white")
+stripehv = rectangle(80, 320, "solid", "white")
+stripebh = rectangle(440, 40, "solid", "navy")
+stripebv = rectangle(40, 320, "solid", "navy")
+
+put-image(stripebv, 160, 160,
+  put-image(stripebh, 220, 160,
+    put-image(stripehv, 160, 160,
+      put-image(stripehh, 220, 160,
+        bakgrunn))))
